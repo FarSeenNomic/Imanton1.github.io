@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>The Colour Game</title>
+
+		<link rel="stylesheet" type="text/css" href="default.css">
+		<link rel="stylesheet" type="text/css" href="daytheme.css" id="thumb">
+		<link rel="stylesheet" type="text/css" href="button.css" id="thumb">
+		<link rel="icon" type="image" href="evil.png"/>
+		<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+		<script async="async" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script async="async" src="stylechange.js"></script>
+		
+		<script>
+		changeAll();
+		function changeRed(value) {
+			document.getElementById('valRed').innerHTML = value;
+			changeAll();
+		}
+		function changeGreen(value) {
+			document.getElementById('valGreen').innerHTML = value;
+			changeAll();
+		}
+		function changeBlue(value) {
+			document.getElementById('valBlue').innerHTML = value;
+			changeAll();
+		}
+		function changeAll() {
+			var r = document.getElementById('valRed').innerHTML;
+			var g = document.getElementById('valGreen').innerHTML;
+			var b = document.getElementById('valBlue').innerHTML;
+			document.getElementById('change').style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+		}
+		</script>
+
+		<script>
+		var ref = new Firebase("torrid-heat-276.firebaseio.com");
+
+		ref.authWithCustomToken("5XoABZqSL4nMtJqMuU1UoMehsrjnUPL5TosEb1s2", function(error, authData) {
+			if (error) {
+				console.log("Authentication Failed!", error);
+			} else {
+				console.log("Authenticated successfully!");
+			}
+		});
+		
+		function changeDB(who,color,what) {
+			ref.child('MULTIGAME').child(who).child(color).set(what);
+		}
+		
+		function changeDBsend() {
+			
+			if (document.getElementById('userid').value == '') {
+				alert("UserID is empty");
+			} else {
+			changeDB(document.getElementById('userid').value,'red',String(document.getElementById('valRed').innerHTML));
+			changeDB(document.getElementById('userid').value,'green',String(document.getElementById('valGreen').innerHTML));
+			changeDB(document.getElementById('userid').value,'blue',String(document.getElementById('valBlue').innerHTML));
+			}
+		}
+		</script>
+	</head>
+	<body>
+	<div style="position:absolute;left:0px;top:0px;">
+		<input type="checkbox" onclick="if(this.checked){nighttheme()}else{daytheme()}">Night Theme</input>
+	</div>
+	<p style="LINE-HEIGHT:111px;font-size:40px;">The Colour Game</p>
+	<p>Identifer (should be same every time):</p>
+	<input id="userid"></input>
+	
+	<p>Your vote for the next image type:</p>
+	<form action="">
+	  <input type="radio" name="vote" value="ultraorg"> Pre-chosen<br>
+	  <input type="radio" name="vote" value="orignal"> Orignal Image Type<br>
+	  <input type="radio" name="vote" value="orgsafe"> Orignal Safe Image Type<br>
+	  <input type="radio" name="vote" value="YTIMG"> YTIMG<br>
+	  <input type="radio" name="vote" value="YTIMG"> Thumper<br>
+	  <input type="radio" name="vote" value="other"> Other
+	</form>
+
+	<input id="throush"></input>
+	
+	<table style="width:100%">
+		<tbody>
+				<tr style="display:inherit;">
+				<th>Red</th>
+				<th>Green</th>
+				<th>Blue</th>
+			</tr>
+		<tr style="display:inherit;">
+			<td id="valRed">137</td>
+			<td id="valGreen">0</td>
+			<td id="valBlue">0</td>
+		</tr>
+		<tr style="display:inherit;">
+			<td id="red"   style="height:50px;background-color:rgb(255,0,0)"></td>
+			<td id="green" style="height:50px;background-color:rgb(0,255,0)"></td>
+			<td id="blue"  style="height:50px;background-color:rgb(0,0,255)"></td>
+		</tr>
+		<tr style="display:inherit;">
+			<td><input onchange="changeRed(this.value)" type="range" id="slideRed" name="slideRed" value="137" min="0" max="255"></td>
+			<td><input onchange="changeGreen(this.value)" type="range" id="slideGreen" name="slideGreen" value="0" min="0" max="255"></td>
+			<td><input onchange="changeBlue(this.value)" type="range" id="slideBlue" name="slideBlue" value="0" min="0" max="255"></td>
+		</tr>
+		</tbody>
+	</table>
+	<div id="change" style="height: 50px; background-color: rgb(137, 0, 0);"></div>
+	<button id="change" type="button" onclick="changeDBsend()" style="background-Color:rgb(245, 36, 129);">Update Colour</button>
+	<br>
+	<button type="button" style="background-Color:rgb(245, 36, 129);" onClick="$('#image').attr('src','https://www.wolframcloud.com/objects/32274d3f-c8fa-48eb-a769-913226b0cda8?rand='+Math.random());">Update Image</button>
+	<br>
+	<img id="image" src="https://www.wolframcloud.com/objects/32274d3f-c8fa-48eb-a769-913226b0cda8" style="width:auto;height:auto;"></img>
+</body>
+</html>
