@@ -1,0 +1,59 @@
+html, body {height:100%;}
+img {
+	width:128px;
+	height:128px;
+}
+body {
+	font-family:"Comic Sans MS","Comic Sans",serif;
+}
+tr {
+	border-left:none;
+	border-top:none;
+	display:table;
+	padding:2px;
+	margin:4px 0;
+	overflow:hidden;
+}
+p {
+	text-align:justify;
+	text-justify: inter-word;
+}
+b {
+	font-family:"Lucida Console",Consolas;
+	font-size: 1.2em;
+}
+
+
+.player{width:32px;height:32px;}
+.man{display:none;z-index:100;}
+.player:hover + .man {
+	display: inline;
+	position: fixed;
+	right: 1%;
+	top: 10%;
+	width: auto;
+	height: 89%;
+}
+
+.box
+{
+	border-radius:8px;
+	height: 345px;
+	width: 577px;
+	text-align: center;
+	position: fixed;
+	margin-top: -200px;
+	margin-left: -280px;
+	left: 50%;
+	top: 50%;
+	z-index: 20;
+	display: none;
+}
+
+#screen
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: #000;
+}
