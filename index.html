@@ -30,6 +30,12 @@
 			var b = document.getElementById('valBlue').innerHTML;
 			document.getElementById('change').style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
 		}
+		
+		function updateimg() {
+			$('#image').attr('src','https://www.wolframcloud.com/objects/32274d3f-c8fa-48eb-a769-913226b0cda8?rand='+Math.random());
+		}
+		
+		setInterval(updateimg(), 2000)
 		</script>
 
 		<script>
@@ -40,6 +46,7 @@
 				console.log("Authentication Failed!", error);
 			} else {
 				console.log("Authenticated successfully!");
+				console.log(navigator);
 			}
 		});
 		
@@ -47,14 +54,30 @@
 			ref.child('MULTIGAME').child(who).child(color).set(what);
 		}
 		
+		function changeCho(value) {
+			if (document.getElementById('userid').value == '') {alert("Username is empty");} else {
+				if (document.getElementById("other").checked) {
+				
+					if (document.getElementById('userid').value == '') {alert("Other is empty");} else {
+						changeDB(document.getElementById('userid').value,'nextimg',document.getElementById('other').value);alert("Sent");
+					}
+					
+				} else {
+				
+					changeDB(document.getElementById('userid').value,'nextimg',value);alert("Sent");
+					
+				}
+			}
+		}
+		
 		function changeDBsend() {
-			
 			if (document.getElementById('userid').value == '') {
-				alert("UserID is empty");
+				alert("Username is empty");
 			} else {
 			changeDB(document.getElementById('userid').value,'red',String(document.getElementById('valRed').innerHTML));
 			changeDB(document.getElementById('userid').value,'green',String(document.getElementById('valGreen').innerHTML));
 			changeDB(document.getElementById('userid').value,'blue',String(document.getElementById('valBlue').innerHTML));
+			alert("Sent")
 			}
 		}
 		</script>
@@ -64,28 +87,30 @@
 		<input type="checkbox" onclick="if(this.checked){nighttheme()}else{daytheme()}">Night Theme</input>
 	</div>
 	<p style="LINE-HEIGHT:111px;font-size:40px;">The Colour Game</p>
-	<p>Identifer (should be same every time):</p>
+
+	<p>Username (should be same every time):</p>
 	<input id="userid"></input>
 	
+	<div class="them" style="width:inherit">
 	<p>Your vote for the next image type:</p>
-	<form action="">
-	  <input type="radio" name="vote" value="ultraorg"> Pre-chosen<br>
-	  <input type="radio" name="vote" value="orignal"> Orignal Image Type<br>
-	  <input type="radio" name="vote" value="orgsafe"> Orignal Safe Image Type<br>
-	  <input type="radio" name="vote" value="YTIMG"> YTIMG<br>
-	  <input type="radio" name="vote" value="YTIMG"> Thumper<br>
-	  <input type="radio" name="vote" value="other"> Other
+	<form>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="ultraorg"> Pre-chosen<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="orignal"> Orignal Image Type<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="orgsafe"> Orignal Safe Image Type<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="YTIMG"> YTIMG<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="Jordan"> Thumper<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="DynSca"> DS<br>
+		<input type="radio" onchange="changeCho(this.value)" name="vote" value="other" id="other"> Other: <input id="othergam"></input>
 	</form>
-
-	<input id="throush"></input>
+	</div>
 	
+	<p><a target="_blank" href="http://www.rapidtables.com/web/color/RGB_Color.htm">This</a> might help find colours</p>
 	<table style="width:100%">
-		<tbody>
-				<tr style="display:inherit;">
-				<th>Red</th>
-				<th>Green</th>
-				<th>Blue</th>
-			</tr>
+		<tr style="display:inherit;">
+			<th>Red</th>
+			<th>Green</th>
+			<th>Blue</th>
+		</tr>
 		<tr style="display:inherit;">
 			<td id="valRed">137</td>
 			<td id="valGreen">0</td>
@@ -101,12 +126,11 @@
 			<td><input onchange="changeGreen(this.value)" type="range" id="slideGreen" name="slideGreen" value="0" min="0" max="255"></td>
 			<td><input onchange="changeBlue(this.value)" type="range" id="slideBlue" name="slideBlue" value="0" min="0" max="255"></td>
 		</tr>
-		</tbody>
 	</table>
 	<div id="change" style="height: 50px; background-color: rgb(137, 0, 0);"></div>
 	<button id="change" type="button" onclick="changeDBsend()" style="background-Color:rgb(245, 36, 129);">Update Colour</button>
 	<br>
-	<button type="button" style="background-Color:rgb(245, 36, 129);" onClick="$('#image').attr('src','https://www.wolframcloud.com/objects/32274d3f-c8fa-48eb-a769-913226b0cda8?rand='+Math.random());">Update Image</button>
+	<button type="button" style="background-Color:rgb(245, 36, 129);" onClick="updateimg()">Manuely update Image</button>
 	<br>
 	<img id="image" src="https://www.wolframcloud.com/objects/32274d3f-c8fa-48eb-a769-913226b0cda8" style="width:auto;height:auto;"></img>
 </body>
