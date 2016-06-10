@@ -1,0 +1,1 @@
+function fadin(type){$(type).fadeIn();};function fadout(type){$(type).fadeOut()};
