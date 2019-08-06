@@ -1,2 +1,2 @@
-# Imanton1.github.io
+# Nomic Kittens
 you were probably looking for [Imanton1.github.io](Imanton1.github.io)
