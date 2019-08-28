@@ -317,7 +317,7 @@ No effect</p>
 <p>
 86.<br>
 Proposed by: Imanton1<br>
-Status: In vote<br>
+Status: Active (3/3 Yea)<br>
 A player must finish their turn within 24 hours of the turn starting. When somebody has noticed, if the turn has not been finished by this time, the player will lose 10% (absolute floor)<sup>1</sup> of their points and their turn will end. If the turn was still waiting on a vote, instead, the unvoted players will all lose 10% (absolute floor) of the total of their points<sup>2</sup>, their vote will be considered null and void for the tally, and the turn will continue, with 12 more hours on the turn timer.<br>
 <sup>1</sup>Explicit code in Mathematica: points[[current]]-=Floor[Abs[0.1*points[[current]]]]<br>
 <sup>2</sup>Explicit code in Mathematica: points[[nonvoters]]-=Floor[Abs[0.1*Total[points[[nonvoters]]]]]
