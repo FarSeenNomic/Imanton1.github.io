@@ -3,4 +3,9 @@
 2 USD,flashhaze,20191003
 77 cents,JFK (78 cents, acclaimed),20191003
 1 USD,francisco new boi,20191003
-All accounted for,20191003
+All accounted for,20191003,14.77
+5.13 USD,Sunrise Ballet
+-19.9 USD,Kirkland Pizza
+All accounted for,20191012,0
+11, from Zues, Angle and someone else
+All accounted for,20191102,0
