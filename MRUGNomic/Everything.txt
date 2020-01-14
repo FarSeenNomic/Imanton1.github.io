@@ -1,0 +1,31 @@
+Nomic only really has one rule:
+All players take a majority vote on a given rule change.
+
+
+2.) Rule 2 has three parts:
+A.) Anyone whose name is not on The List may join.
+B.) If you quit the game, your name is put on The List.
+C.) The List starts as blank.
+
+Rule#3- you can't skip your turn.
+
+Rule 4.)
+All players playing the game take their turn order according to their Discord ID.
+This rule takes effect imminently.
+
+Rule 5.
+A.) All players of the game get a role
+B.) The role is named 'Nomic'. (This may be changed at any time by another rule)
+
+rule#6 - all players who decide to leave the game must change their nickname for 24 hours
+
+So..rule 7.
+If the number of your rule is even, it has to contain a minimum of 100 letters.
+
+Rule Sqrt(50):
+Every new rule must be the next integer after the rule before it.
+
+
+269904594526666754 Imanton
+366958220658475009 Yin-Yang Yazmine
+617966131151372330 Cheez
