@@ -26,6 +26,6 @@ Rule Sqrt(50):
 Every new rule must be the next integer after the rule before it.
 
 
-269904594526666754 Imanton
+269904594526666754 Imanton1
 366958220658475009 Yin-Yang Yazmine
 617966131151372330 Cheez
