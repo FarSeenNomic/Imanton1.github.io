@@ -17,7 +17,9 @@ Rule 5.
 A.) All players of the game get a role
 B.) The role is named 'Nomic'. (This may be changed at any time by another rule)
 
+XXX
 rule#6 - all players who decide to leave the game must change their nickname for 24 hours
+XXX
 
 So..rule 7.
 If the number of your rule is even, it has to contain a minimum of 100 letters.
@@ -25,6 +27,16 @@ If the number of your rule is even, it has to contain a minimum of 100 letters.
 Rule Sqrt(50):
 Every new rule must be the next integer after the rule before it.
 
+Rule#8- players have a time limit of 12 hours to make up a new rule, failure to do so results in penalty.
+
+Rule 9:
+If anyone accidentally posts a duplicate rule, they get penalized
+
+Rule 10.
+Ammendment to Rule 6.
+All players who decide to leave the game must change their nickname for 24 hours to a random pokemon, decided by Booblessed's random number generator.
+
+Rule #11-players who have received more than three penalties or who have refused to do one of the penalties that was placed upon them will be added to the list and booted from the game.
 
 269904594526666754 Imanton1
 366958220658475009 Yin-Yang Yazmine
