@@ -38,6 +38,25 @@ All players who decide to leave the game must change their nickname for 24 hours
 
 Rule #11-players who have received more than three penalties or who have refused to do one of the penalties that was placed upon them will be added to the list and booted from the game.
 
-269904594526666754 Imanton1
-366958220658475009 Yin-Yang Yazmine
-617966131151372330 Cheez
+#12
+If anyone can't add a rule due to being asleep for their turn, their countdown should start once they wake up.
+
+Rule 13.)
+A person will get a punishment done within 24 hours. An extension may be requested for up to 48 more hours, accepted by majority vote.
+
+rule#14-
+Amendment to rule 11
+The three penalties will not lead to an absolute booting from the game, instead the player will be given a more risky penalty for every three normal penalties.The player can still be booted if they refuse to do a penalty or let the time frame pass the possible 42 hours.
+
+#15
+Refusing the penalty 3 times in a row leads to a mute/ban from the server.
+
+Rule 16.
+A.) Have Booblessed change the 'topic' of the channel to "A game where everything changes."
+B.) Rules must include their number, be inside a \`\`\`code block\`\`\`, and, if over 1K characters, contains a summery of the contents.
+
+rule#17- A penalty can only be rejected if it's impossible for the player to preform due to  lacking whatever is necessary to do said penalty.The player will have to prove that this penalty is impossible for them though
+
+269904594526666754   Imanton1
+366958220658475009   Yin-Yang Yazmine
+617966131151372330 I Cheez
