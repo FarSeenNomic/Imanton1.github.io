@@ -1,0 +1,11 @@
+Imanton1			HP 10
+	Do anything 1
+		Fisting 2
+Yin-Yang Yazmine	HP 10
+	Do anything 1
+LemonPancake		HP 9
+	Do anything 1
+
+Imanton1 Punched LemonPancake
+	LemonPancake Failed at blocking. -1 HP
+	Imanton1 Rolled a 6 gained "Fisting 2"
