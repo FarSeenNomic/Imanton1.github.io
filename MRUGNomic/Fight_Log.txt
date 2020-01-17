@@ -1,10 +1,10 @@
-Imanton1			HP 9
+Imanton1			HP 9	XP 0
 	Do anything 1
 		Fisting 2
-Yin-Yang Yazmine	HP 10
+Yin-Yang Yazmine	HP 10	XP 0
 	Do anything 1
 		Gunslinging 2
-LemonPancake		HP 9
+LemonPancakes		HP 9	XP 0
 	Do anything 1
 
 Imanton1 Punched LemonPancake
@@ -13,4 +13,3 @@ Imanton1 Punched LemonPancake
 Yazmine shoots
 	Imanton1 failed at dodging. -1 HP
 	Yazmine rolled a 6 gained "Gunslinging 2"
-	
