@@ -57,6 +57,53 @@ B.) Rules must include their number, be inside a \`\`\`code block\`\`\`, and, if
 
 rule#17- A penalty can only be rejected if it's impossible for the player to preform due to  lacking whatever is necessary to do said penalty.The player will have to prove that this penalty is impossible for them though
 
+Rule #18
+The penalty should not consist of anything harmful, personal, or involve NSFW content.
+
+Rule 19.)
+A.) Define punishment and penalty:
+    I.) The penalty shall be chosen by the random number generator as one items to be done from the list of punisments. This may be incresed to two at request.
+    XX
+    II.) This list will be never be modified in contents or order, but may be appended to.
+    XX
+    II.) The list can be changed or added to once all 24 penalties have been done at least twice.
+    III.) This list shall remain private until 3 punishments have been done.
+    IV.) A punishment can be done at will, without a penalty being given to them
+    V.) The number of penalties will be tracked with the players name
+B.) Anyone with the 'Nomic' roll can now control the voting process.
+
+Rule #20-
+Amendment to Rule #19.A.II:
+The list can be changed or added to once all 24 penalties have been done at least twice.
+
+Rule #21
+If all three of us are online, yet not all of us have voted, the voting shall close if no one votes within 5 minutes of the last vote.
+
+Rule 22.)
+Every player will have the stats of 'HP' and 'XP', to start at 10 and 0, respectively.
+Every player will have skills, each of which has a level, starting with 'Do anything 1'
+
+When you want to do something:
+Say what you do and roll a number of d6s.
+If the sum of your roll is higher than the opposing roll, the thing you wanted to happen, happens.
+The number of the d6s you roll is determined by the level of skill you have.
+If you roll all sixes on your roll, you can get new skill one level higher than the one you used for the action. The skill must be a strict subset of what happened to you in the action (Say, Athletics 2 if you were climbing a wall, or Teeth of Biting 2 if you were eating a cake).
+For every roll you fail, you get 1 XP.
+XP can be used to change a die into a 6 for advancement purposes but not for success purposes.
+
+If at any point a player dies, they go back to 10 HP lose their single highest level skill, and get punished. To the thing that killed them, it gains 10 HP.
+If at any point the player loses all skills, they lose the game of Nomic.
+Summery: A dice-based RPG.
+
+Rule #23
+The category will be renamed to 'Nomic games' with this channel being Nomic general. This is to avoid any confusion in the case of us making some nomic-separate game.
+
+Rule #24
+Any rules should be general and not directed towards a specific person. This means no stuff like "Yaz isn't allowed to etc.", or anything that makes it clear the rule was made because of the person.
+
+Rule 25.)
+In the #microdungeon, turns are taken in reverse order to the main game, with an extra priority turn given to reaction, IE, the person who just reacted to taking the roll to react. This starts after LemonPancakes's turn.
+
 269904594526666754   Imanton1
 366958220658475009   Yin-Yang Yazmine
-617966131151372330 I Cheez
+617966131151372330 I LemonPancakes
