@@ -17,9 +17,7 @@ Rule 5.
 A.) All players of the game get a role
 B.) The role is named 'Nomic'. (This may be changed at any time by another rule)
 
-XXX
-rule#6 - all players who decide to leave the game must change their nickname for 24 hours
-XXX
+rule#6 - All players who decide to leave the game must change their nickname for 24 hours to a random pokemon, decided by Booblessed's random number generator.
 
 So..rule 7.
 If the number of your rule is even, it has to contain a minimum of 100 letters.
@@ -32,11 +30,13 @@ Rule#8- players have a time limit of 12 hours to make up a new rule, failure to 
 Rule 9:
 If anyone accidentally posts a duplicate rule, they get penalized
 
+XXX
 Rule 10.
 Ammendment to Rule 6.
 All players who decide to leave the game must change their nickname for 24 hours to a random pokemon, decided by Booblessed's random number generator.
+XXX
 
-Rule #11-players who have received more than three penalties or who have refused to do one of the penalties that was placed upon them will be added to the list and booted from the game.
+Rule #11- The three penalties will not lead to an absolute booting from the game, instead the player will be given a more risky penalty for every three normal penalties. The player can still be booted if they refuse to do a penalty or let the time frame pass the possible 42 hours.
 
 #12
 If anyone can't add a rule due to being asleep for their turn, their countdown should start once they wake up.
@@ -44,9 +44,11 @@ If anyone can't add a rule due to being asleep for their turn, their countdown s
 Rule 13.)
 A person will get a punishment done within 24 hours. An extension may be requested for up to 48 more hours, accepted by majority vote.
 
+XXX
 rule#14-
 Amendment to rule 11
-The three penalties will not lead to an absolute booting from the game, instead the player will be given a more risky penalty for every three normal penalties.The player can still be booted if they refuse to do a penalty or let the time frame pass the possible 42 hours.
+The three penalties will not lead to an absolute booting from the game, instead the player will be given a more risky penalty for every three normal penalties. The player can still be booted if they refuse to do a penalty or let the time frame pass the possible 42 hours.
+XXX
 
 #15
 Refusing the penalty 3 times in a row leads to a mute/ban from the server.
@@ -72,9 +74,11 @@ A.) Define punishment and penalty:
     V.) The number of penalties will be tracked with the players name
 B.) Anyone with the 'Nomic' roll can now control the voting process.
 
+XXX
 Rule #20-
 Amendment to Rule #19.A.II:
 The list can be changed or added to once all 24 penalties have been done at least twice.
+XXX
 
 Rule #21
 If all three of us are online, yet not all of us have voted, the voting shall close if no one votes within 5 minutes of the last vote.
@@ -104,6 +108,21 @@ Any rules should be general and not directed towards a specific person. This mea
 Rule 25.)
 In the #microdungeon, turns are taken in reverse order to the main game, with an extra priority turn given to reaction, IE, the person who just reacted to taking the roll to react. This starts after LemonPancakes's turn.
 
+Rule # 26
+Players have to avoid abusing the penalty and or wait system as doing so can significantly stall the game. Abuse of these will lead to the player being booted from all Nomic-games.
+
+Rule #27
+A turn shall be skipped only for a good and serious reason, which must be approved by the rest of the players
+
+Rule 28.)
+	A.) Replace rule 24.
+	Any rule that designates a single or group of people(s) shall also have to have a majority vote by that sub-group of people if they are part of the game. In the case of one person, this ends up just being consent. This means that if Yaz is ok with a rule only applying to her, then we vote as normal.
+	B.) In the #microdungeon, you have 6 hours to make your turn, else it be skipped with no other penalty.
+
+Rule #29-
+Placing a rule in the wrong channel will result in a penalty and said rule and any opinions on it being considered null. The rule will not be able to be re-proposed in the correct channel until the player's next turn.
+
+
 269904594526666754   Imanton1
-366958220658475009   Yin-Yang Yazmine
+366958220658475009 I Yin-Yang Yazmine
 617966131151372330 I LemonPancakes

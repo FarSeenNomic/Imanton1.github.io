@@ -1,15 +1,36 @@
-Imanton1			HP 9	XP 0
+Imanton1			HP 8	XP 3
 	Do anything 1
 		Fisting 2
+		Warding 2
+	Has:
+		Warding 1 applied
 Yin-Yang Yazmine	HP 10	XP 0
 	Do anything 1
 		Gunslinging 2
-LemonPancakes		HP 9	XP 0
+		Lurking 2
+	Has:
+		Gun
+LemonPancakes		HP 9	XP 1
 	Do anything 1
 
-Imanton1 Punched LemonPancake
-	LemonPancake failed at blocking. -1 HP
+Imanton1 Punched LemonPancakes
+	LemonPancakes failed at blocking. -1 HP
 	Imanton1 rolled a 6 gained "Fisting 2"
-Yazmine shoots
+Yazmine shoots Imanton1
 	Imanton1 failed at dodging. -1 HP
 	Yazmine rolled a 6 gained "Gunslinging 2"
+LemonPancakes does nothing.
+Yazmine shoots Imanton1
+	Imanton1 failed at dodging. -1 HP
+
+	Imanton1 tried to heal.
+		It failed.
+Imanton1 tried to ward against bullets
+	It succeeded.
+	Used an XP to gain "Warding 2"
+LemonPancakes calls the cops.
+Yazmine hides.
+	Yazmine rolled a 6 gained "Lurking 2"
+Imanton1 starts hunting for where Yazmine is lurking.
+	"Do anything 1 (Hunting)" vs Yazmines "Lurking 2"
+	Imanton1 failed at Hunting.
