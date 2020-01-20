@@ -102,8 +102,10 @@ Summery: A dice-based RPG.
 Rule #23
 The category will be renamed to 'Nomic games' with this channel being Nomic general. This is to avoid any confusion in the case of us making some nomic-separate game.
 
+XXX
 Rule #24
 Any rules should be general and not directed towards a specific person. This means no stuff like "Yaz isn't allowed to etc.", or anything that makes it clear the rule was made because of the person.
+XXX
 
 Rule 25.)
 In the #microdungeon, turns are taken in reverse order to the main game, with an extra priority turn given to reaction, IE, the person who just reacted to taking the roll to react. This starts after LemonPancakes's turn.
@@ -122,7 +124,12 @@ Rule 28.)
 Rule #29-
 Placing a rule in the wrong channel will result in a penalty and said rule and any opinions on it being considered null. The rule will not be able to be re-proposed in the correct channel until the player's next turn.
 
+Players:
+269904594526666754			Imanton1
+366958220658475009	I		Yin-Yang Yazmine
 
-269904594526666754   Imanton1
-366958220658475009 I Yin-Yang Yazmine
-617966131151372330 I LemonPancakes
+Non-players:
+617966131151372330	I	RI	LemonPancakes
+
+The List:
+null
