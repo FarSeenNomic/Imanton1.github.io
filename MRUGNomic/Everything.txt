@@ -124,6 +124,15 @@ Rule 28.)
 Rule #29-
 Placing a rule in the wrong channel will result in a penalty and said rule and any opinions on it being considered null. The rule will not be able to be re-proposed in the correct channel until the player's next turn.
 
+Rule #31
+Due to the fact that the game comes to a stand still when people are busy in rl, turns can be skipped but with a good justified reason.Not being able to think of a new rule doesn't count.
+
+Rule 32.)
+A.) Rename '@Nomic' to '@Nomic Egg' to match Rekkie's food theme and colour appropriately.
+B.) XP in the microdungeon can be used to pass a roll OR level up, but never both.
+C.) The player with 255 XP or more in the microdungeon wins the game of nomic.
+D.) All new players gain XP equal to the mean of 'the worth' all player.
+
 Players:
 269904594526666754			Imanton1
 366958220658475009	I		Yin-Yang Yazmine
