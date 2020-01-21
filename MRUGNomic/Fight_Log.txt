@@ -1,13 +1,15 @@
-Imanton1			HP 8	XP 3
+Imanton1			HP 9	XP 7
 	Do anything 1
 		Fisting 2
 		Warding 2
+		Remote viewing 2
 	Has:
 		Warding 1 applied
-Yin-Yang Yazmine	HP 10	XP 0
+Yin-Yang Yazmine	HP 10	XP 1
 	Do anything 1
 		Gunslinging 2
 		Lurking 2
+		Self-Defense 2
 	Has:
 		Gun
 LemonPancakes		HP 9	XP 1
@@ -24,13 +26,38 @@ Yazmine shoots Imanton1
 	Imanton1 failed at dodging. -1 HP
 
 	Imanton1 tried to heal.
-		It failed.
-Imanton1 tried to ward against bullets
+		Imanton1 failed.
+Imanton1 tries to ward against bullets
 	It succeeded.
-	Used an XP to gain "Warding 2"
+	Imanton1 used an XP to gain "Warding 2"
 LemonPancakes calls the cops.
 Yazmine hides.
 	Yazmine rolled a 6 gained "Lurking 2"
 Imanton1 starts hunting for where Yazmine is lurking.
 	"Do anything 1 (Hunting)" vs Yazmines "Lurking 2"
 	Imanton1 failed at Hunting.
+Yazmine continues to lurk.
+	Imanton1 failed.
+Imanton1 tries to heal.
+	Imanton1 failed.
+Yazmine tries to sneak aways
+	Yazmine failed.
+Yazmine tries to run
+	Yazmine succeeded.
+	Yazmine rolled a 6 gained "Self-Defense 2"
+Yazmine shoots Imanton1
+	Imanton1 failed at taking it. -1 HP
+Imanton1 tries to detect where Yazmine went.
+	Imanton1 failed
+Imanton1 does a rest, to try to recover my bearings.
+Yazmine prances around
+	Imanton1 failed
+Imanton1 cast healing on myself
+	Imanton1 succeeded
+Imanton1 does a rest
+	Imanton1 succeeded
+Yazmine is prancing round
+Imanton1 uses magic to see if I am being taunted.
+	Imanton1 failed
+	Imanton1 used an XP to gain "Remote viewing 2"
+Yazmine continues prancing
