@@ -144,6 +144,38 @@ All players must prove that they have completed their punishment, either via ima
 Rule 34.)
 Spelling Bee: The owner of the Spelling Bee may change one word in any rule by substituting up to two of its letters for other letters. This change may be anulled by majority vote within 2 days of its application. Once used, the Spelling Bee is no longer owned and goes into its hive for two days. After that time, a player is chosen randomly to own it.
 
+Rule #35:
+Time limit is 24 hours, due to the players who defied the time limit of 12 hours.
+
+Rule 36.)
+The game of nomic is now finished. There are no more rules to make. All players who are currently playing win. All other lose.
+The list of punishments will be made public.
+Yin-Yang Yazmine may now have access to the full alphabet again.
+Somebody ping Rekad the Rekkie to see what his idea was.
+
+The microdungeon will continue with the following ruleset:
+
+Every player will have the stats of 'HP' and 'XP', to start at 10 and 0, respectively.
+Every player will have skills, each of which has a level, starting with 'Do anything 1'
+
+When you want to do something:
+Say what you do and roll a number of d6s.
+If the sum of your roll is higher than the opposing roll, the thing you wanted to happen, happens.
+The number of the d6s you roll is determined by the level of skill you have.
+If you roll all sixes on your roll, you can get new skill one level higher than the one you used for the action. The skill must be a strict subset of what happened to you in the action (Say, Athletics 2 if you were climbing a wall, or Teeth of Biting 2 if you were eating a cake).
+For every roll you fail, you get 1 XP.
+XP can be used to change a die into a 6 for advancement purposes OR success purposes, but not for both.
+
+If at any point a player dies, they go back to 10 HP lose their single highest level skill. To the thing that killed them, it gains 10 HP. If it rolled a 6, it has the option to take that skill.
+
+In the #microdungeon, turns are taken in reverse order to the discord ID of the players, with an extra priority turn given to reaction, IE, the person who just reacted to taking the roll to react.
+
+In the #microdungeon, you have 6 hours to make your turn, else it be skipped with no other penalty.
+
+All new players gain XP equal to the mean of 'the worth' all player.
+
+Summery: The game is over. Have a good day.
+
 Players:
  98926710312931328			M.C. Hitler
 269904594526666754			Imanton1
