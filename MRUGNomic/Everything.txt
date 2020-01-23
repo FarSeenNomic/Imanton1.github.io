@@ -138,9 +138,16 @@ B.) XP in the microdungeon can be used to pass a roll OR level up, but never bot
 C.) The player with 255 XP or more in the microdungeon wins the game of nomic.
 D.) All new players gain XP equal to the mean of 'the worth' all player.
 
+Rule#33
+All players must prove that they have completed their punishment, either via image or video. They may delete this evidence afterwards if they so desire.
+
+Rule 34.)
+Spelling Bee: The owner of the Spelling Bee may change one word in any rule by substituting up to two of its letters for other letters. This change may be anulled by majority vote within 2 days of its application. Once used, the Spelling Bee is no longer owned and goes into its hive for two days. After that time, a player is chosen randomly to own it.
+
 Players:
+ 98926710312931328			M.C. Hitler
 269904594526666754			Imanton1
-366958220658475009	I		Yin-Yang Yazmine
+366958220658475009	II		Yin-Yang Yazmine	Restricted: n
 
 Non-players:
 617966131151372330	I	RI	LemonPancakes

@@ -14,6 +14,8 @@ Yin-Yang Yazmine	HP 10	XP 1
 		Gun
 LemonPancakes		HP 9	XP 1
 	Do anything 1
+M.C. Hitler			HP 10	XP 5
+	Do anything 1
 
 Imanton1 Punched LemonPancakes
 	LemonPancakes failed at blocking. -1 HP
@@ -52,7 +54,7 @@ Imanton1 tries to detect where Yazmine went.
 Imanton1 does a rest, to try to recover my bearings.
 Yazmine prances around
 	Imanton1 failed
-Imanton1 cast healing on myself
+Imanton1 cast healing on myself +1 HP
 	Imanton1 succeeded
 Imanton1 does a rest
 	Imanton1 succeeded
